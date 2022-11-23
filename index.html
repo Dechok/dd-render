@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Form Validation</title>
+</head>
+<body>
+    <div class="container1">
+        <form action="" method="get" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="on">
+            <h3>Student Detail </h3>
+            <div class="form-field">
+                <label >Student ID : </label>
+                <input type="text" id="id" name="stdid" placeholder="SOC[8 digits]" autocomplete="off"><br>
+                <small></small>
+            </div>
+            <br><br>
+            <div class="form-field">
+                <label for="name"> Student Name : </label>
+                <input type="text" id="name" name="stdtname" placeholder="STUDENT NAME" autocomplete="off"><br>
+                <small></small>
+            </div>
+
+            <br>
+            <div class="row form-action-buttons" >
+                <input class="btn" type="submit" value="ADD">
+            </div>
+        </form>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
